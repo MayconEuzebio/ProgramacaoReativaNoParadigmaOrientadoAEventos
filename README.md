@@ -1,7 +1,7 @@
 # ProgramacaoReativaNoParadigmaOrientadoAEventos
 Trabalho de Conclusão de Curso: Programação Reativa no Paradigma Orientado a Eventos
 
-Orientando: Maycon Leandro Euzébio
+Orientando: Maycon Leandro Euzébio                                                    
 Orientador: Marcos Alberto Lopes da Silva
 
 Para executar os scripts é necessario ter o node js instalado, após isso rode o comando:
