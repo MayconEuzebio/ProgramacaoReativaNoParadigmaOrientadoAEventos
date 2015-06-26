@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="moveJogos">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Movimentos de um jogo - Programação Imperativa</title>
+
+</head>
+<body ng-controller="MoveJogosImperativoController" ng-keydown="eventos.teclado($event)" ng-mousedown="eventos.mouse($event)">
+    <h1>Movimentos de um jogo - Programação Imperativa</h1>
+    <h2>Movimento: {{movimento}}</h2>
+    <ul>
+        <li>W - move para frente</li>
+        <li>D - move para direita</li>
+        <li>A - move para esquerda</li>
+        <li>S - move para trás</li>
+        <li>Back Space - interage com o cenário</li>
+        <li>Botão esquerdo do mouse - aciona a arma</li>
+        <li>Botão direito do mouse - troca a arma</li>
+    </ul>
+    <script src="vendor/angular/angular.js"></script>
+    <script src="js/moveJogos.js"></script>
+    <script src="js/controllers/MoveJogosImperativoController.js"></script>
+</body>
+</html>
